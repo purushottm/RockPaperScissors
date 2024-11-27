@@ -7,7 +7,7 @@ import {
   SINGLE_BET_MULTIPLIER,
   DOUBLE_BET_MULTIPLIER,
 } from "../constants";
-import { Position } from "../types/gameTypes";
+import { Position } from "../types";
 import { determineWinner } from "../utils/gameLogic";
 
 interface GameSliceState {

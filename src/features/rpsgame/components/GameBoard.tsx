@@ -6,8 +6,8 @@ import BettingPosition from "./BettingPosition";
 import GameHeader from "./GameHeader";
 import GameControls from "./GameControls";
 import GameStatus from "./GameStatus";
-import { MAX_POSITIONS, POSITIONS } from "../constants";
-import { Position } from "../types/gameTypes";
+import { POSITIONS } from "../constants";
+import { Position } from "../types";
 
 const BoardContainer = styled.div`
   display: flex;
